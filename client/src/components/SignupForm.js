@@ -30,7 +30,7 @@ const SignupForm = () => {
     }
 
     try {
-      const response = await addUser({variables: {...userFormData}});
+      const {response} = await addUser({variables: {...userFormData}});
 
 
  
